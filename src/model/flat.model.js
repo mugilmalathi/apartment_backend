@@ -5,7 +5,7 @@ const flatSchema = new mongoose.Schema({
     block:{type: String},
     flatNo:{type: String},
     totalNo:{type: Number},
-    image:{type: URL}
+    image:{type: String}
 },
 {
     versionkey: false,
