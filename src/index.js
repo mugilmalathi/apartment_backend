@@ -9,10 +9,10 @@ const connect = require("./config/db");
 const PORT = process.env.PORT;
 
 const flatController = require("./controller/flat.controller")
-const signinController = require("./controller/signin.controller")
+// const signinController = require("./controller/signin.controller")
 
 app.use("/", flatController)
-app.use("/", signinController)
+// app.use("/", signinController)
 
 app.listen(PORT, async()=>{
     try{
