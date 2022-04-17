@@ -4,7 +4,7 @@ const signinSchema = new mongoose.Schema({
     id:{type: Number},
     name:{type: String},
     password:{type: Number},
-    email:{type: Number}
+    email:{type: String}
 },
 {
     versionkey: false,
